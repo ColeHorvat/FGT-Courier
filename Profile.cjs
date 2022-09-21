@@ -23,6 +23,7 @@ const options = {
   })
 };
 
+//Recipient id at the end of the url (FGT-Date+Time+Random Digts)
 fetch('https://api.courier.com/profiles/0460766e-8463-4905-ae98-b72c7aef41d6', options)
   .then(response => response.json())
   .then(response => console.log(response))

@@ -30,7 +30,7 @@ const options = {
   })
 };
 
-fetch('https://api.courier.com/lists/fgt.list.id/subscriptions/test_user3', options)
+fetch('https://api.courier.com/lists/fgt.list.id/subscriptions/test_user4', options)
   .then(response => response.json())
   .then(response => console.log(response))
   .catch(err => console.error(err));
